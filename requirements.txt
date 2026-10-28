@@ -1,0 +1,8 @@
+numpy>=1.24
+scipy>=1.10
+sympy>=1.12
+matplotlib>=3.7
+control>=0.10.0     # ct.nlsys / ct.linearize / ct.dlqr
+do-mpc>=5.0         # kısıtlı MPC (casadi + IPOPT ile gelir)
+casadi>=3.6
+pillow              # .gif kaydı için; .mp4 için sistemde ffmpeg gerekir

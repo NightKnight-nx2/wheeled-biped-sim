@@ -1,0 +1,30 @@
+  [LQR] 600 adım, 0.9 s duvar süresi, durum: ok
+  [MPC] 600 adım, 8.8 s duvar süresi, durum: ok
+--- LQR ---
+  status              : ok
+  rms_speed_err       : 0.4178
+  rms_pitch_err       : 0.0045
+  max_pitch_err_deg   : 0.804
+  rms_tau_wheel       : 0.776
+  max_abs_tau         : [ 1.9177 11.9703  5.3976]
+  N_min               : 37.3831
+  N_max               : 96.9035
+  max_friction_ratio  : 1.0071
+  max_constraint_err  : 0.0
+  max_slip            : 0.0
+  mean_ctrl_ms        : 0.0721
+  max_ctrl_ms         : 0.1378
+--- MPC ---
+  status              : ok
+  rms_speed_err       : 0.4176
+  rms_pitch_err       : 0.0033
+  max_pitch_err_deg   : 0.5648
+  rms_tau_wheel       : 0.7749
+  max_abs_tau         : [ 1.8297 12.0749  5.3879]
+  N_min               : 37.3202
+  N_max               : 97.1853
+  max_friction_ratio  : 1.0061
+  max_constraint_err  : 0.0
+  max_slip            : 0.0
+  mean_ctrl_ms        : 12.9071
+  max_ctrl_ms         : 45.6271
